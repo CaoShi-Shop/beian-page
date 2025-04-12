@@ -1,81 +1,52 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>情趣用品展示</title>
+  <meta charset="UTF-8">
+  <title>技术与生活随笔</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background-color: #fa3a57;
-      color: white;
-      padding: 16px;
-      text-align: center;
-      font-size: 20px;
-    }
-    main {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .product {
-      background: white;
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    .product img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    .product h2 {
-      margin-top: 12px;
-      font-size: 18px;
-    }
-    .product p {
-      font-size: 14px;
-      line-height: 1.6;
-    }
-    footer {
-      text-align: center;
-      font-size: 12px;
-      color: #999;
-      padding: 24px 0;
-    }
+    body { font-family: "Helvetica Neue", sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background-color: #2c3e50; color: white; padding: 20px 0; text-align: center; }
+    header h1 { margin: 0; font-size: 28px; }
+    nav { text-align: center; margin-top: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 14px; }
+    main { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+    article { background: white; border-radius: 8px; padding: 20px; margin-bottom: 30px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    article h2 { font-size: 22px; margin-bottom: 10px; }
+    article p { font-size: 16px; line-height: 1.6; }
+    footer { text-align: center; font-size: 14px; color: #999; padding: 20px; background: #fff; border-top: 1px solid #eee; }
   </style>
 </head>
 <body>
-  <header>情趣用品展示</header>
-  <main>
-    <div class="product">
-      <img src="./images/yunxi1-1.jpeg" alt="情趣跳蛋示意图">
-      <h2>静音震动吮吸跳蛋</h2>
-      <p>
-        本产品结合震动与吮吸双重功能，采用亲肤硅胶材质，适合成年用户私密使用。
-        提倡健康、和谐的两性生活体验。
-      </p>
-    </div>
+  <header>
+    <h1>个人博客</h1>
+    <nav>
+      <a href="#">首页</a>
+      <a href="#">技术笔记</a>
+      <a href="#">生活分享</a>
+      <a href="#">关于我</a>
+    </nav>
+  </header>
 
-    <div class="product">
-      <img src="./images/xiunv1-2.jpeg" alt="情趣制服示意图">
-      <h2>性感角色制服套装</h2>
-      <p>
-        高开叉设计融合修女造型，适合角色扮演场景，提升亲密氛围，非日常穿搭使用。
-      </p>
-    </div>
+  <main>
+    <article>
+      <h2>如何用 Cloudflare 构建个人静态网站</h2>
+      <p>最近我尝试用 Cloudflare Pages 搭建一个简单的静态博客，部署流程非常轻便，支持 GitHub 自动部署。相比传统服务器部署，它更适合个人使用，并且在国内外访问速度都不错。本文将分享我的搭建经验和常见问题。</p>
+    </article>
+
+    <article>
+      <h2>四月的东京：记录一场说走就走的旅行</h2>
+      <p>趁着春暖花开，我去了一趟东京，感受到了不同文化下的细腻与秩序。从新宿的繁华，到镰仓的海风，再到浅草寺的宁静，每一处都令人沉醉。这次旅行也让我重新思考了生活的节奏。</p>
+    </article>
+
+    <article>
+      <h2>浅谈网页备案的那些事</h2>
+      <p>很多人不知道网站备案流程其实并不复杂，但却需要耐心。尤其是个人备案，一定要确保内容合规、无任何商业行为或违规信息。本文整理了一些常见的问题和解决办法，希望能帮到有需要的人。</p>
+    </article>
   </main>
 
   <footer>
-    © 2025 情趣用品展示网 ｜ 冀ICP备2025110348号 ｜ 本网站用于展示情趣用品、成人用品介绍与购买方式
+    <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2025110348号</a>
   </footer>
 </body>
 </html>
